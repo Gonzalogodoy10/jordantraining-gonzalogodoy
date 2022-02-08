@@ -50,6 +50,51 @@ video{
     padding-bottom:3rem;
 }
 
+.ourtraining{
+    border: 1px black solid;
+    text-align:center;
+    padding:5rem;
+}
+.ourtraining h2{
+    font-size:3rem;
+    padding-bottom:3rem;
+}
+.trainingmethod{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.fitness, .game , .mindset{
+    border: 1px black solid;
+    text-align:center;
+}
+
+.trainwithus{
+    border: 1px black solid;
+    text-align:center;
+    padding:5rem;
+}
+.trainwithus h2{
+    font-size:3rem;
+    padding-bottom:3rem;
+}
+
+.contact-form{
+    border: 1px black solid;
+    margin:1rem;
+    padding: 4rem;
+    /*Agregar background img*/
+}
+
+input{
+    margin:0.5rem;
+}
+.button{
+    padding:0.5rem;
+}
+
+
+
+
 
 
 
