@@ -1,0 +1,57 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+header{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding:1rem;
+    
+}
+h1 a{
+    text-decoration: none;
+}
+img{
+    max-height: 20rem;
+}
+
+ul{
+    display:flex;
+    list-style-type: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 1rem;
+}
+
+/* Finaliza Header */
+
+.videointro{
+    text-align:center;
+}
+video{
+    width:80%;
+}
+
+.aboutus{
+    border: 1px black solid;
+    text-align:center;
+    padding:5rem;
+}
+.aboutus h2{
+    font-size:3rem;
+    padding-bottom:3rem;
+}
+
+
+
+
+
+
