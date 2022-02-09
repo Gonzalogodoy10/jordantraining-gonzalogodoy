@@ -3,8 +3,13 @@
     margin:0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    background-color: #171717;
     color:#EDEDED;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body{
+    background-image: linear-gradient(#171717, #444444);
+    background-size: 400%;
 }
 
 /* Header */
@@ -13,12 +18,15 @@ header{
     display:grid;
     grid-template-columns: auto auto auto;
     justify-content: space-between;
-    border: 1px solid black;
+    border: 1px solid #EDEDED;
     padding:1rem;
     
 }
 h1 a{
     text-decoration: none;
+}
+h1 a:hover{
+    color:#DA0037;
 }
 img{
     max-height: 20rem;
@@ -33,6 +41,9 @@ nav ul li a{
     text-decoration: none;
     padding: 1rem;
 }
+nav ul li a:hover{
+    color:#DA0037;
+}
 
 /* Finaliza Header */
 
@@ -44,7 +55,7 @@ video{
 }
 
 #aboutus{
-    border: 1px black solid;
+    border: 1px #EDEDED solid;
     text-align:center;
     padding:5rem;
 }
@@ -54,7 +65,7 @@ video{
 }
 
 #ourtraining{
-    border: 1px black solid;
+    border: 1px #EDEDED solid;
     text-align:center;
     padding:5rem;
 }
@@ -67,12 +78,12 @@ video{
     grid-template-columns: 1fr 1fr 1fr;
 }
 .fitness, .game , .mindset{
-    border: 1px black solid;
+    border: 1px #EDEDED solid;
     text-align:center;
 }
 
 #trainwithus{
-    border: 1px black solid;
+    border: 1px #EDEDED solid;
     text-align:center;
     padding:5rem;
 }
@@ -82,7 +93,7 @@ video{
 }
 
 .contact-form{
-    border: 1px black solid;
+    border: 1px #EDEDED solid;
     margin:1rem;
     padding: 4rem;
     /*Agregar background img*/
@@ -90,9 +101,23 @@ video{
 
 input{
     margin:0.5rem;
+    text-align:center;
+    width: 10rem;
 }
+
 .button{
-    padding:0.5rem;
+    padding:0.5rem;    
+    cursor: pointer;
+    background-image: linear-gradient(#DA0037, #171717);
+    background-size:300%;
+    background-position:left;
+    font-size: 1.5rem;
+
+}
+.button:hover,
+.button:focus{
+    background-position:right;
+    background-image: linear-gradient(#171717, #DA0037);
 }
 
 
