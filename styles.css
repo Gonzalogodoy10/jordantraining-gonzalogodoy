@@ -2,6 +2,9 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: #171717;
+    color:#EDEDED;
 }
 
 /* Header */
@@ -40,26 +43,26 @@ video{
     width:80%;
 }
 
-.aboutus{
+#aboutus{
     border: 1px black solid;
     text-align:center;
     padding:5rem;
 }
-.aboutus h2{
+#aboutus h2{
     font-size:3rem;
     padding-bottom:3rem;
 }
 
-.ourtraining{
+#ourtraining{
     border: 1px black solid;
     text-align:center;
     padding:5rem;
 }
-.ourtraining h2{
+#ourtraining h2{
     font-size:3rem;
     padding-bottom:3rem;
 }
-.trainingmethod{
+#trainingmethod{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -68,12 +71,12 @@ video{
     text-align:center;
 }
 
-.trainwithus{
+#trainwithus{
     border: 1px black solid;
     text-align:center;
     padding:5rem;
 }
-.trainwithus h2{
+#trainwithus h2{
     font-size:3rem;
     padding-bottom:3rem;
 }
