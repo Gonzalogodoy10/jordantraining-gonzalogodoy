@@ -20,7 +20,7 @@ header{
     justify-content: space-between;
     border: 1px solid #EDEDED;
     padding:1rem;
-    
+    position:sticky;
 }
 h1 a{
     text-decoration: none;
@@ -58,10 +58,12 @@ video{
     border: 1px #EDEDED solid;
     text-align:center;
     padding:5rem;
+    
 }
 #aboutus h2{
     font-size:3rem;
     padding-bottom:3rem;
+    color:#DA0037;
 }
 
 #ourtraining{
@@ -72,6 +74,7 @@ video{
 #ourtraining h2{
     font-size:3rem;
     padding-bottom:3rem;
+    color:#DA0037;
 }
 #trainingmethod{
     display:grid;
@@ -81,22 +84,29 @@ video{
     border: 1px #EDEDED solid;
     text-align:center;
 }
+h3{
+    font-size: 2rem;
+}
 
 #trainwithus{
-    border: 1px #EDEDED solid;
     text-align:center;
     padding:5rem;
 }
 #trainwithus h2{
     font-size:3rem;
     padding-bottom:3rem;
+    color:#DA0037;
 }
 
 .contact-form{
     border: 1px #EDEDED solid;
     margin:1rem;
     padding: 4rem;
-    /*Agregar background img*/
+    background-image: url(/img/thepic.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    
 }
 
 input{
