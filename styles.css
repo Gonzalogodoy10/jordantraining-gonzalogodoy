@@ -130,8 +130,75 @@ input{
     background-image: linear-gradient(#171717, #DA0037);
 }
 
+/* Media Querie - BreakPoint 1200px */
+/* 
+@media (min-width:1200px){
+    header{
+        display:inline-block;
+        text-align:center;
+        width:25%;
+    }
+}
+nav ul li a{
+    font-size:0.7rem;
+    padding-left:1.7rem;
+    
+}
+
+.videointro{
+    text-align:left;
+}
+video{
+    width:25%;
+}
+#aboutus, #ourtraining, #trainwithus{
+    width:25%;
+    font-size:0.5rem;
+    padding: 2rem;
+}
+#aboutus h2, #ourtraining h2, #trainwithus h2{
+    font-size:1rem;
+    padding: 0;
+}
+#trainingmethod{
+    display:inline-block;
+
+}
+.fitness, .mindset, .game{
+    width: 25%;
+    font-size:0.5rem;
+    padding: 2rem;
+}
+h3{
+    font-size:1rem;
+}
+img{
+    max-height: 10rem;
+}
+input{
+    width:5rem;
+}
+.button{
+    font-size: 0.5rem;
+} */
 
 
+
+
+
+
+
+
+
+/* Media Querie -BreakPoint - 320px
+
+@media (max-width:320px){
+    header{
+        display:inline-block;
+        text-align:center;
+    }
+}
+ */
 
 
 
