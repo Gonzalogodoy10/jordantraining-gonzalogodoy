@@ -7,9 +7,12 @@
     font-family: 'Bebas Neue', cursive;
 }
 
+@media (min-width:992px){
+
 body{
     background-image: linear-gradient(#171717, #444444);
     background-size: 400%;
+    
 }
 
 /* Header */
@@ -24,6 +27,7 @@ header{
 }
 h1 a{
     text-decoration: none;
+    color:#EDEDED;
 }
 h1 a:hover{
     color:#DA0037;
@@ -40,6 +44,7 @@ ul{
 nav ul li a{
     text-decoration: none;
     padding: 1rem;
+    color:#EDEDED;
 }
 nav ul li a:hover{
     color:#DA0037;
@@ -58,6 +63,7 @@ video{
     border: 1px #EDEDED solid;
     text-align:center;
     padding:5rem;
+    margin-right: 0;
     
 }
 #aboutus h2{
@@ -70,6 +76,7 @@ video{
     border: 1px #EDEDED solid;
     text-align:center;
     padding:5rem;
+    
 }
 #ourtraining h2{
     font-size:3rem;
@@ -79,11 +86,19 @@ video{
 #trainingmethod{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
 }
+
 .fitness, .game , .mindset{
     border: 1px #EDEDED solid;
     text-align:center;
 }
+.fitness{
+    margin-left:-12px;
+    padding-bottom:2rem;
+}
+
+
 h3{
     font-size: 2rem;
 }
@@ -129,79 +144,301 @@ input{
     background-position:right;
     background-image: linear-gradient(#171717, #DA0037);
 }
-
-/* Media Querie - BreakPoint 1200px */
-/* 
-@media (min-width:1200px){
-    header{
-        display:inline-block;
-        text-align:center;
-        width:25%;
-    }
+footer{
+    position:absolute;  
 }
-nav ul li a{
-    font-size:0.7rem;
-    padding-left:1.7rem;
+}
+
+@media(min-width:790px) and (max-width:991px){
+    body{
+        background-image: linear-gradient(#171717, #444444);
+        background-size: 400%;
+    }
     
-}
-
-.videointro{
-    text-align:left;
-}
-video{
-    width:25%;
-}
-#aboutus, #ourtraining, #trainwithus{
-    width:25%;
-    font-size:0.5rem;
-    padding: 2rem;
-}
-#aboutus h2, #ourtraining h2, #trainwithus h2{
-    font-size:1rem;
-    padding: 0;
-}
-#trainingmethod{
-    display:inline-block;
-
-}
-.fitness, .mindset, .game{
-    width: 25%;
-    font-size:0.5rem;
-    padding: 2rem;
-}
-h3{
-    font-size:1rem;
-}
-img{
-    max-height: 10rem;
-}
-input{
-    width:5rem;
-}
-.button{
-    font-size: 0.5rem;
-} */
-
-
-
-
-
-
-
-
-
-/* Media Querie -BreakPoint - 320px
-
-@media (max-width:320px){
+    /* Header */
+    
     header{
-        display:inline-block;
+        display:grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-between;
+        border: 1px solid #EDEDED;
+        padding:1rem;
+        position:sticky;
+    }
+    h1 a{
+        text-decoration: none;
+        color:#EDEDED;
+    }
+    h1 a:hover{
+        color:#DA0037;
+    }
+    img{
+        max-height: 20rem;
+    }
+    
+    ul{
+        display:flex;
+        list-style-type: none;
+        
+    }
+    nav ul li a{
+        text-decoration: none;
+        padding: 1rem;
+        color:#EDEDED;
+    }
+    nav ul li a:hover{
+        color:#DA0037;
+    }
+    
+    /* Finaliza Header */
+    
+    .videointro{
         text-align:center;
     }
-}
- */
+    video{
+        width:80%;
+    }
+    
+    #aboutus{
+        border: 1px #EDEDED solid;
+        text-align:center;
+        padding:5rem;
+        margin-right: 0;
+        
+    }
+    #aboutus h2{
+        font-size:3rem;
+        padding-bottom:3rem;
+        color:#DA0037;
+    }
+    
+    #ourtraining{
+        border: 1px #EDEDED solid;
+        text-align:center;
+        padding:5rem;
+        
+    }
+    #ourtraining h2{
+        font-size:3rem;
+        padding-bottom:3rem;
+        color:#DA0037;
+    }
+    #trainingmethod{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+        
+    }
+    
+    .fitness, .game , .mindset{
+        border: 1px #EDEDED solid;
+        text-align:center;
+        padding-bottom:3rem;
+    }
+    .fitness{
+        padding-top:0;
+        padding-bottom:15rem;
+        
+    }
+
+    
+    .game img{
+        max-height:20%;
+    }
+    
+    h3{
+        font-size: 2rem;
+    }
+    
+    #trainwithus{
+        text-align:center;
+        padding:5rem;
+    }
+    #trainwithus h2{
+        font-size:3rem;
+        padding-bottom:3rem;
+        color:#DA0037;
+    }
+    
+    .contact-form{
+        border: 1px #EDEDED solid;
+        margin:1rem;
+        padding: 4rem;
+        background-image: url(/img/thepic.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        
+    }
+    
+    input{
+        margin:0.5rem;
+        text-align:center;
+        width: 10rem;
+    }
+    
+    .button{
+        padding:0.5rem;    
+        cursor: pointer;
+        background-image: linear-gradient(#DA0037, #171717);
+        background-size:300%;
+        background-position:left;
+        font-size: 1.5rem;
+    
+    }
+    .button:hover,
+    .button:focus{
+        background-position:right;
+        background-image: linear-gradient(#171717, #DA0037);
+    }
+    footer{
+        position:absolute;  
+    }
+    }
+
+    @media (min-width:576px) and (max-width:789px)
+    {
+        body{
+            background-image: linear-gradient(#171717, #444444);
+            background-size: 400%;
+            margin:0;
+            padding:0;
+        }
+        
+        /* Header */
+        
+        header{
+            
+            border: 1px solid #EDEDED;
+            
+            position:sticky;
+            width:fit-content;
+            text-align:center;
+            
+        }
+        h1 a{
+            text-decoration: none;
+            color:#EDEDED;
+        }
+        h1 a:hover{
+            color:#DA0037;
+        }
+        img{
+            max-height: 20rem;
+        }
+        
+        ul{
+            display:flex;
+            list-style-type: none;
+            
+        }
+        nav ul li a{
+            text-decoration: none;
+            padding: 1rem;
+            color:#EDEDED;
+        }
+        nav ul li a:hover{
+            color:#DA0037;
+        }
+        
+        /* Finaliza Header */
+        
+        video{
+            
+            width:41%
+        }
+        
+        #aboutus{
+            border: 1px #EDEDED solid;
+            text-align:center;
+            padding:5rem;
+            margin-right: 0;
+            width:41%;
+            
+        }
+        #aboutus h2{
+            font-size:3rem;
+            padding-bottom:3rem;
+            color:#DA0037;
+        }
+        
+        #ourtraining{
+            border: 1px #EDEDED solid;
+            text-align:center;
+            padding:5rem;
+            width:41%;
+        }
+        #ourtraining h2{
+            font-size:3rem;
+            padding-bottom:3rem;
+            color:#DA0037;
+        }
+        
+        
+        .fitness, .game , .mindset{
+            border: 1px #EDEDED solid;
+            text-align:center;
+            padding-bottom:3rem;
+            width:41%;
+        }
+        .mindset img, .fitness img{
+            max-height: 12rem;
+        }
+        
+        .game img{
+            max-height: 8rem;
+        }
+        
+        h3{
+            font-size: 2rem;
+        }
+        
+        #trainwithus{
+            text-align:center;
+            padding:5rem;
+            border: 1px #EDEDED solid;
+            width:19.1rem;
+            margin-left:11.5px;
+            
+            
+        }
+        #trainwithus h2{
+            font-size:3rem;
+            padding-bottom:3rem;
+            color:#DA0037;
+        }
+        
+        .contact-form{
+            border: 1px #EDEDED solid;
+            background-image: linear-gradient(#171717, #444444, #DA0037, #EDEDED);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size:cover;
+        }
+        
+        input{
+            width: 5rem;
+        }
+        
+        .button{
+            padding:0.5rem; 
+            margin-top:0.5rem;   
+            cursor: pointer;
+            background-image: linear-gradient(#DA0037, #171717);
+            background-size:300%;
+            background-position:left;
+            font-size: 1rem;
+        
+        }
+        .button:hover,
+        .button:focus{
+            background-position:right;
+            background-image: linear-gradient(#171717, #DA0037);
+        }
+        footer{
+            position:absolute;  
+        }
+        }
 
 
-
-
-
-
+    
