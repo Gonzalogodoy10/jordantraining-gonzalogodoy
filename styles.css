@@ -462,7 +462,7 @@ footer{
         }
 
 
-/* ATHLETES.HTML */
+/* HALL OF FAME.HTML */
 
 
 video{
@@ -481,6 +481,7 @@ h2{
 .awardslist{
     padding:0.5rem;
     font-size:1.5rem;
+    color:#FFD369;
 }
 .lebronchamp{
     max-height: 40rem;
@@ -488,4 +489,12 @@ h2{
 .conorchamp{
     max-height: 30rem;
 }
-
+.navi{
+    background-color:#FFD369;
+}
+.navi a, ul, li{
+    color:#393E46;
+}
+.navis:hover{
+    color:#222831;
+}
