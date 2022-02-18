@@ -5,464 +5,69 @@
     scroll-behavior: smooth;
     color:#EDEDED;
     font-family: 'Bebas Neue', cursive;
+    
 }
 
 @media (min-width:992px){
+/*INDEX*/
 
 body{
-    background-image: linear-gradient(#171717, #444444);
-    background-size: 400%;
+    background-color:#393E46;
+}
+.navito{
+    background-color:#EEEEEE;
+}
+.navito a, ul, li{
+    color:#393E46;
+}
+
+
+
+/* Containers */
+
+.aboutus{
+    margin:0;
+    padding:0;
+    padding:8rem;
+    border: 1px #EEEEEE solid;
     
 }
-
-/* Header */
-
-header{
-    display:grid;
-    grid-template-columns: auto auto auto;
-    justify-content: space-between;
-    border: 1px solid #EDEDED;
-    padding:1rem;
-    position:sticky;
+#title1, #title2, #title3, #title4{
+    color:#FFD369;
 }
-h1 a{
-    text-decoration: none;
-    color:#EDEDED;
-}
-h1 a:hover{
-    color:#DA0037;
-}
-img{
-    max-height: 20rem;
-}
-
-ul{
-    display:flex;
-    list-style-type: none;
-    
-}
-nav ul li a{
-    text-decoration: none;
-    padding: 1rem;
-    color:#EDEDED;
-}
-nav ul li a:hover{
-    color:#DA0037;
-}
-
-/* Finaliza Header */
-
-.videointro{
+.paraph{
     text-align:center;
 }
-video{
-    width:80%;
-}
 
-#aboutus{
-    border: 1px #EDEDED solid;
+.famelink{
     text-align:center;
-    padding:5rem;
-    margin-right: 0;
-    
-}
-#aboutus h2{
+    color:#FFD369;
     font-size:3rem;
-    padding-bottom:3rem;
-    color:#DA0037;
 }
-
-#ourtraining{
-    border: 1px #EDEDED solid;
-    text-align:center;
-    padding:5rem;
-    
+.famelink:hover{
+    color:#EEEEEE;
 }
-#ourtraining h2{
-    font-size:3rem;
-    padding-bottom:3rem;
-    color:#DA0037;
-}
-#trainingmethod{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
-}
-
-.fitness, .game , .mindset{
-    border: 1px #EDEDED solid;
+/* Form */
+.formcon{
     text-align:center;
 }
-.fitness{
-    margin-left:-12px;
-    padding-bottom:2rem;
+.input{
+    width:50%;
 }
-
-
-h3{
-    font-size: 2rem;
-}
-
-#trainwithus{
+.form-control{
     text-align:center;
-    padding:5rem;
 }
-#trainwithus h2{
-    font-size:3rem;
-    padding-bottom:3rem;
-    color:#DA0037;
+#exampleFormControlInput1{
+    width:50%;
+    margin-left:17rem;
 }
-
-.contact-form{
-    border: 1px #EDEDED solid;
-    margin:1rem;
-    padding: 4rem;
-    background-image: url(/img/thepic.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    
+.btn{
+    height:50px;
+    width: 150px;
+    color:#EEEEEE;
 }
 
-input{
-    margin:0.5rem;
-    text-align:center;
-    width: 10rem;
-}
-
-.button{
-    padding:0.5rem;    
-    cursor: pointer;
-    background-image: linear-gradient(#DA0037, #171717);
-    background-size:300%;
-    background-position:left;
-    font-size: 1.5rem;
-
-}
-.button:hover,
-.button:focus{
-    background-position:right;
-    background-image: linear-gradient(#171717, #DA0037);
-}
-footer{
-    position:absolute;  
-}
-.checkmore{
-    color:#DA0037;
-    font-size:2.5rem;
-}
-.checkmore:hover{
-    color:#DA0037;
-}
-}
-
-@media(min-width:790px) and (max-width:991px){
-    body{
-        background-image: linear-gradient(#171717, #444444);
-        background-size: 400%;
-    }
-    
-    /* Header */
-    
-    header{
-        display:grid;
-        grid-template-columns: auto auto auto;
-        justify-content: space-between;
-        border: 1px solid #EDEDED;
-        padding:1rem;
-        position:sticky;
-    }
-    h1 a{
-        text-decoration: none;
-        color:#EDEDED;
-    }
-    h1 a:hover{
-        color:#DA0037;
-    }
-    img{
-        max-height: 20rem;
-    }
-    
-    ul{
-        display:flex;
-        list-style-type: none;
-        
-    }
-    nav ul li a{
-        text-decoration: none;
-        padding: 1rem;
-        color:#EDEDED;
-    }
-    nav ul li a:hover{
-        color:#DA0037;
-    }
-    
-    /* Finaliza Header */
-    
-    .videointro{
-        text-align:center;
-    }
-    video{
-        width:80%;
-    }
-    
-    #aboutus{
-        border: 1px #EDEDED solid;
-        text-align:center;
-        padding:5rem;
-        margin-right: 0;
-        
-    }
-    #aboutus h2{
-        font-size:3rem;
-        padding-bottom:3rem;
-        color:#DA0037;
-    }
-    
-    #ourtraining{
-        border: 1px #EDEDED solid;
-        text-align:center;
-        padding:5rem;
-        
-    }
-    #ourtraining h2{
-        font-size:3rem;
-        padding-bottom:3rem;
-        color:#DA0037;
-    }
-    #trainingmethod{
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        
-        
-    }
-    
-    .fitness, .game , .mindset{
-        border: 1px #EDEDED solid;
-        text-align:center;
-        padding-bottom:3rem;
-    }
-    .fitness{
-        padding-top:0;
-        padding-bottom:15rem;
-        
-    }
-
-    
-    .game img{
-        max-height:20%;
-    }
-    
-    h3{
-        font-size: 2rem;
-    }
-    
-    #trainwithus{
-        text-align:center;
-        padding:5rem;
-    }
-    #trainwithus h2{
-        font-size:3rem;
-        padding-bottom:3rem;
-        color:#DA0037;
-    }
-    
-    .contact-form{
-        border: 1px #EDEDED solid;
-        margin:1rem;
-        padding: 4rem;
-        background-image: url(/img/thepic.jpeg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size:cover;
-        
-    }
-    
-    input{
-        margin:0.5rem;
-        text-align:center;
-        width: 10rem;
-    }
-    
-    .button{
-        padding:0.5rem;    
-        cursor: pointer;
-        background-image: linear-gradient(#DA0037, #171717);
-        background-size:300%;
-        background-position:left;
-        font-size: 1.5rem;
-    
-    }
-    .button:hover,
-    .button:focus{
-        background-position:right;
-        background-image: linear-gradient(#171717, #DA0037);
-    }
-    footer{
-        position:absolute;  
-    }
-    .checkmore{
-        color:#DA0037;
-        font-size:2.5rem;
-    }
-    .checkmore:hover{
-        color:#DA0037;
-    }
-    }
-
-    @media (min-width:576px) and (max-width:789px)
-    {
-        body{
-            background-image: linear-gradient(#171717, #444444);
-            background-size: 400%;
-            margin:0;
-            padding:0;
-        }
-        
-        /* Header */
-        
-        header{
-            
-            border: 1px solid #EDEDED;
-            
-            position:sticky;
-            width:fit-content;
-            text-align:center;
-            
-        }
-        h1 a{
-            text-decoration: none;
-            color:#EDEDED;
-        }
-        h1 a:hover{
-            color:#DA0037;
-        }
-        img{
-            max-height: 20rem;
-        }
-        
-        ul{
-            display:flex;
-            list-style-type: none;
-            
-        }
-        nav ul li a{
-            text-decoration: none;
-            padding: 1rem;
-            color:#EDEDED;
-        }
-        nav ul li a:hover{
-            color:#DA0037;
-        }
-        
-        /* Finaliza Header */
-        
-        video{
-            
-            width:41%
-        }
-        
-        #aboutus{
-            border: 1px #EDEDED solid;
-            text-align:center;
-            padding:5rem;
-            margin-right: 0;
-            width:41%;
-            
-        }
-        #aboutus h2{
-            font-size:3rem;
-            padding-bottom:3rem;
-            color:#DA0037;
-        }
-        
-        #ourtraining{
-            border: 1px #EDEDED solid;
-            text-align:center;
-            padding:5rem;
-            width:41%;
-        }
-        #ourtraining h2{
-            font-size:3rem;
-            padding-bottom:3rem;
-            color:#DA0037;
-        }
-        
-        
-        .fitness, .game , .mindset{
-            border: 1px #EDEDED solid;
-            text-align:center;
-            padding-bottom:3rem;
-            width:41%;
-        }
-        .mindset img, .fitness img{
-            max-height: 12rem;
-        }
-        
-        .game img{
-            max-height: 8rem;
-        }
-        
-        h3{
-            font-size: 2rem;
-        }
-        
-        #trainwithus{
-            text-align:center;
-            padding:5rem;
-            border: 1px #EDEDED solid;
-            width:19.1rem;
-            margin-left:11.5px;
-            
-            
-        }
-        #trainwithus h2{
-            font-size:3rem;
-            padding-bottom:3rem;
-            color:#DA0037;
-        }
-        
-        .contact-form{
-            border: 1px #EDEDED solid;
-            background-image: linear-gradient(#171717, #444444, #DA0037, #EDEDED);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size:cover;
-        }
-        
-        input{
-            width: 5rem;
-        }
-        
-        .button{
-            padding:0.5rem; 
-            margin-top:0.5rem;   
-            cursor: pointer;
-            background-image: linear-gradient(#DA0037, #171717);
-            background-size:300%;
-            background-position:left;
-            font-size: 1rem;
-        
-        }
-        .button:hover,
-        .button:focus{
-            background-position:right;
-            background-image: linear-gradient(#171717, #DA0037);
-        }
-        footer{
-            position:absolute;  
-        }
-        .checkmore{
-            color:#DA0037;
-            font-size:2.5rem;
-        }
-        .checkmore:hover{
-            color:#DA0037;
-        }
-        }
-
-
-/* HALL OF FAME.HTML */
+/* HALL OF FAME */
 
 
 video{
@@ -492,9 +97,228 @@ h2{
 .navi{
     background-color:#FFD369;
 }
+
 .navi a, ul, li{
     color:#393E46;
 }
 .navis:hover{
     color:#222831;
+}
+.navbar-toggler-icon{
+    background: linear-gradient(white, #ffd369);
+    border-radius: 5px;
+}
+}
+
+
+
+
+
+@media (min-width:790px) and (max-width:991px){
+
+/*INDEX*/
+
+body{
+    background-color:#393E46;
+}
+.navito{
+    background-color:#EEEEEE;
+}
+.navito a, ul, li{
+    color:#393E46;
+}
+
+
+
+/* Containers */
+
+.aboutus{
+    margin:0;
+    padding:0;
+    padding:8rem;
+    border: 1px #EEEEEE solid;
+    
+}
+#title1, #title2, #title3, #title4{
+    color:#FFD369;
+}
+.paraph{
+    text-align:center;
+}
+
+.famelink{
+    text-align:center;
+    color:#FFD369;
+    font-size:3rem;
+}
+.famelink:hover{
+    color:#EEEEEE;
+}
+/* Form */
+.formcon{
+    text-align:center;
+}
+.input{
+    width:50%;
+}
+.form-control{
+    text-align:center;
+}
+#exampleFormControlInput1{
+    width:50%;
+    margin-left:17rem;
+}
+.btn{
+    height:50px;
+    width: 150px;
+    color:#EEEEEE;
+}
+
+/* HALL OF FAME */
+
+
+video{
+    width:100%;
+}
+
+h2{
+    color:#DA0037;
+    text-align:center;
+    font-size:6rem;
+}
+
+.awards{
+    display:inline-block;
+}
+.awardslist{
+    padding:0.5rem;
+    font-size:1.5rem;
+    color:#FFD369;
+}
+.lebronchamp{
+    max-height: 40rem;
+}
+.conorchamp{
+    max-height: 30rem;
+}
+.navi{
+    background-color:#FFD369;
+}
+
+.navi a, ul, li{
+    color:#393E46;
+}
+.navis:hover{
+    color:#222831;
+}
+.navbar-toggler-icon{
+    background: linear-gradient(white, #ffd369);
+    border-radius: 5px;
+}
+}    
+
+
+    
+@media (min-width:576px) and (max-width:789px)
+{
+    /*INDEX*/
+
+body{
+    background-color:#393E46;
+}
+.navito{
+    background-color:#EEEEEE;
+}
+.navito a, ul, li{
+    color:#393E46;
+}
+
+
+
+/* Containers */
+
+.aboutus{
+    margin:0;
+    padding:0;
+    padding:8rem;
+    border: 1px #EEEEEE solid;
+    
+}
+#title1, #title2, #title3, #title4{
+    color:#FFD369;
+}
+.paraph{
+    text-align:center;
+}
+
+.famelink{
+    text-align:center;
+    color:#FFD369;
+    font-size:3rem;
+}
+.famelink:hover{
+    color:#EEEEEE;
+}
+/* Form */
+.formcon{
+    text-align:center;
+}
+.input{
+    width:50%;
+}
+
+.form-control{
+    text-align:center;
+}
+#exampleFormControlInput1{
+    width:50%;
+    margin-left:17rem;
+}
+.btn{
+    height:50px;
+    width: 150px;
+    color:#EEEEEE;
+}
+
+/* HALL OF FAME */
+
+
+video{
+    width:100%;
+}
+
+h2{
+    color:#DA0037;
+    text-align:center;
+    font-size:6rem;
+}
+
+.awards{
+    display:inline-block;
+}
+.awardslist{
+    padding:0.5rem;
+    font-size:1.5rem;
+    color:#FFD369;
+}
+.lebronchamp{
+    max-height: 40rem;
+}
+.conorchamp{
+    max-height: 30rem;
+}
+.navi{
+    background-color:#FFD369;
+}
+
+.navi a, ul, li{
+    color:#393E46;
+}
+.navis:hover{
+    color:#222831;
+}
+.navbar-toggler-icon{
+    background: linear-gradient(white, #ffd369);
+    border-radius: 5px;
+}
 }
