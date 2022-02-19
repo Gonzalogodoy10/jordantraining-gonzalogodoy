@@ -1,0 +1,244 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color:#EDEDED;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+// Variables - Colores
+
+$yellow:#FFD369;
+$grey:#393E46;
+$black: #222831;
+$white: #EEEEEE;
+
+// Mixin
+
+@mixin container {
+    margin:0;
+    padding:0;
+    padding:8rem;
+    border: 1px #EEEEEE solid;
+}
+
+@mixin h2 {
+    color:#DA0037;
+    text-align:center;
+    font-size:6rem;
+}
+
+@mixin awardslist {
+    padding:0.5rem;
+    font-size:1.5rem;
+    color:#FFD369;
+
+}
+
+
+
+@media (min-width:992px){
+/*INDEX*/
+
+    body{
+        background-color:$grey;
+    }
+    .navito{
+        background-color:$white;
+    }
+    .navito a, ul, li{
+        color:$grey;
+    }
+
+
+    /* Containers */
+
+    .aboutus{
+        @include container;
+    }
+    #title1, #title2, #title3, #title4{
+        color:$yellow;
+    }
+    .paraph{
+        text-align:center;
+    }
+
+    .famelink{
+        // text-align:center;
+            text: {
+                align:center;
+            }
+        color:$yellow;
+        font-size:3rem;
+    }
+    .famelink:hover{
+        color:$white;
+    }
+
+    /* Form */
+    .formcon{
+        text-align:center;
+    }
+    .input{
+        width:50%;
+    }
+    .form-control{
+        text-align:center;
+    }
+    #exampleFormControlInput1{
+        width:50%;
+        margin-left:17rem;
+    }
+    .btn{
+        height:50px;
+        width: 150px;
+        color:#EEEEEE;
+    }
+
+
+    /* HALL OF FAME */
+
+    @import "fame";
+
+}
+
+
+
+
+
+@media (min-width:790px) and (max-width:991px){
+
+
+
+/*INDEX*/
+
+body{
+    background-color:$grey;
+}
+.navito{
+    background-color:$white;
+}
+.navito a, ul, li{
+    color:$grey;
+}
+
+
+/* Containers */
+
+.aboutus{
+    @include container;
+}
+#title1, #title2, #title3, #title4{
+    color:$yellow;
+}
+.paraph{
+    text-align:center;
+}
+
+.famelink{
+    // text-align:center;
+        text: {
+            align:center;
+        }
+    color:$yellow;
+    font-size:3rem;
+}
+.famelink:hover{
+    color:$white;
+}
+
+/* Form */
+.formcon{
+    text-align:center;
+}
+.input{
+    width:50%;
+}
+.form-control{
+    text-align:center;
+}
+#exampleFormControlInput1{
+    width:50%;
+    margin-left:17rem;
+}
+.btn{
+    height:50px;
+    width: 150px;
+    color:#EEEEEE;
+}
+
+/* HALL OF FAME */
+
+
+@import "fame";
+
+}
+
+
+    
+@media (min-width:576px) and (max-width:789px)
+{
+/*INDEX*/
+
+body{
+    background-color:$grey;
+}
+.navito{
+    background-color:$white;
+}
+.navito a, ul, li{
+    color:$grey;
+}
+
+
+/* Containers */
+
+.aboutus{
+    @include container;
+}
+#title1, #title2, #title3, #title4{
+    color:$yellow;
+}
+.paraph{
+    text-align:center;
+}
+
+.famelink{
+    // text-align:center;
+        text: {
+            align:center;
+        }
+    color:$yellow;
+    font-size:3rem;
+}
+.famelink:hover{
+    color:$white;
+}
+
+/* Form */
+.formcon{
+    text-align:center;
+}
+.input{
+    width:50%;
+}
+.form-control{
+    text-align:center;
+}
+#exampleFormControlInput1{
+    width:50%;
+    margin-left:17rem;
+}
+.btn{
+    height:50px;
+    width: 150px;
+    color:#EEEEEE;
+}
+
+/* HALL OF FAME */
+
+@import "fame";
+
+}

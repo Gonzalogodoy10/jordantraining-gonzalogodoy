@@ -1,324 +1,283 @@
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    color:#EDEDED;
-    font-family: 'Bebas Neue', cursive;
-    
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: #EDEDED;
+  font-family: 'Bebas Neue', cursive;
 }
 
-@media (min-width:992px){
-/*INDEX*/
-
-body{
-    background-color:#393E46;
-}
-.navito{
-    background-color:#EEEEEE;
-}
-.navito a, ul, li{
-    color:#393E46;
-}
-
-
-
-/* Containers */
-
-.aboutus{
-    margin:0;
-    padding:0;
-    padding:8rem;
+@media (min-width: 992px) {
+  /*INDEX*/
+  body {
+    background-color: #393E46;
+  }
+  .navito {
+    background-color: #EEEEEE;
+  }
+  .navito a, ul, li {
+    color: #393E46;
+  }
+  /* Containers */
+  .aboutus {
+    margin: 0;
+    padding: 0;
+    padding: 8rem;
     border: 1px #EEEEEE solid;
-    
-}
-#title1, #title2, #title3, #title4{
-    color:#FFD369;
-}
-.paraph{
-    text-align:center;
-}
-
-.famelink{
-    text-align:center;
-    color:#FFD369;
-    font-size:3rem;
-}
-.famelink:hover{
-    color:#EEEEEE;
-}
-/* Form */
-.formcon{
-    text-align:center;
-}
-.input{
-    width:50%;
-}
-.form-control{
-    text-align:center;
-}
-#exampleFormControlInput1{
-    width:50%;
-    margin-left:17rem;
-}
-.btn{
-    height:50px;
+  }
+  #title1, #title2, #title3, #title4 {
+    color: #FFD369;
+  }
+  .paraph {
+    text-align: center;
+  }
+  .famelink {
+    text-align: center;
+    color: #FFD369;
+    font-size: 3rem;
+  }
+  .famelink:hover {
+    color: #EEEEEE;
+  }
+  /* Form */
+  .formcon {
+    text-align: center;
+  }
+  .input {
+    width: 50%;
+  }
+  .form-control {
+    text-align: center;
+  }
+  #exampleFormControlInput1 {
+    width: 50%;
+    margin-left: 17rem;
+  }
+  .btn {
+    height: 50px;
     width: 150px;
-    color:#EEEEEE;
-}
-
-/* HALL OF FAME */
-
-
-video{
-    width:100%;
-}
-
-h2{
-    color:#DA0037;
-    text-align:center;
-    font-size:6rem;
-}
-
-.awards{
-    display:inline-block;
-}
-.awardslist{
-    padding:0.5rem;
-    font-size:1.5rem;
-    color:#FFD369;
-}
-.lebronchamp{
+    color: #EEEEEE;
+  }
+  /* HALL OF FAME */
+  /* HALL OF FAME */
+  video {
+    width: 100%;
+  }
+  h2 {
+    color: #DA0037;
+    text-align: center;
+    font-size: 6rem;
+  }
+  .awards {
+    display: inline-block;
+  }
+  .awardslist {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: #FFD369;
+  }
+  .lebronchamp {
     max-height: 40rem;
-}
-.conorchamp{
+  }
+  .conorchamp {
     max-height: 30rem;
-}
-.navi{
-    background-color:#FFD369;
-}
-
-.navi a, ul, li{
-    color:#393E46;
-}
-.navis:hover{
-    color:#222831;
-}
-.navbar-toggler-icon{
-    background: linear-gradient(white, #ffd369);
+  }
+  .navi {
+    background-color: #FFD369;
+  }
+  .navi a, ul, li {
+    color: #393E46;
+  }
+  .navis:hover {
+    color: #222831;
+  }
+  .navbar-toggler-icon {
+    background: -webkit-gradient(linear, left top, left bottom, from(#EEEEEE), to(#FFD369));
+    background: linear-gradient(#EEEEEE, #FFD369);
     border-radius: 5px;
-}
-}
-
-
-
-
-
-@media (min-width:790px) and (max-width:991px){
-
-/*INDEX*/
-
-body{
-    background-color:#393E46;
-}
-.navito{
-    background-color:#EEEEEE;
-}
-.navito a, ul, li{
-    color:#393E46;
+  }
 }
 
-
-
-/* Containers */
-
-.aboutus{
-    margin:0;
-    padding:0;
-    padding:8rem;
+@media (min-width: 790px) and (max-width: 991px) {
+  /*INDEX*/
+  body {
+    background-color: #393E46;
+  }
+  .navito {
+    background-color: #EEEEEE;
+  }
+  .navito a, ul, li {
+    color: #393E46;
+  }
+  /* Containers */
+  .aboutus {
+    margin: 0;
+    padding: 0;
+    padding: 8rem;
     border: 1px #EEEEEE solid;
-    
-}
-#title1, #title2, #title3, #title4{
-    color:#FFD369;
-}
-.paraph{
-    text-align:center;
-}
-
-.famelink{
-    text-align:center;
-    color:#FFD369;
-    font-size:3rem;
-}
-.famelink:hover{
-    color:#EEEEEE;
-}
-/* Form */
-.formcon{
-    text-align:center;
-}
-.input{
-    width:50%;
-}
-.form-control{
-    text-align:center;
-}
-#exampleFormControlInput1{
-    width:50%;
-    margin-left:17rem;
-}
-.btn{
-    height:50px;
+  }
+  #title1, #title2, #title3, #title4 {
+    color: #FFD369;
+  }
+  .paraph {
+    text-align: center;
+  }
+  .famelink {
+    text-align: center;
+    color: #FFD369;
+    font-size: 3rem;
+  }
+  .famelink:hover {
+    color: #EEEEEE;
+  }
+  /* Form */
+  .formcon {
+    text-align: center;
+  }
+  .input {
+    width: 50%;
+  }
+  .form-control {
+    text-align: center;
+  }
+  #exampleFormControlInput1 {
+    width: 50%;
+    margin-left: 17rem;
+  }
+  .btn {
+    height: 50px;
     width: 150px;
-    color:#EEEEEE;
-}
-
-/* HALL OF FAME */
-
-
-video{
-    width:100%;
-}
-
-h2{
-    color:#DA0037;
-    text-align:center;
-    font-size:6rem;
-}
-
-.awards{
-    display:inline-block;
-}
-.awardslist{
-    padding:0.5rem;
-    font-size:1.5rem;
-    color:#FFD369;
-}
-.lebronchamp{
+    color: #EEEEEE;
+  }
+  /* HALL OF FAME */
+  /* HALL OF FAME */
+  video {
+    width: 100%;
+  }
+  h2 {
+    color: #DA0037;
+    text-align: center;
+    font-size: 6rem;
+  }
+  .awards {
+    display: inline-block;
+  }
+  .awardslist {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: #FFD369;
+  }
+  .lebronchamp {
     max-height: 40rem;
-}
-.conorchamp{
+  }
+  .conorchamp {
     max-height: 30rem;
-}
-.navi{
-    background-color:#FFD369;
-}
-
-.navi a, ul, li{
-    color:#393E46;
-}
-.navis:hover{
-    color:#222831;
-}
-.navbar-toggler-icon{
-    background: linear-gradient(white, #ffd369);
+  }
+  .navi {
+    background-color: #FFD369;
+  }
+  .navi a, ul, li {
+    color: #393E46;
+  }
+  .navis:hover {
+    color: #222831;
+  }
+  .navbar-toggler-icon {
+    background: -webkit-gradient(linear, left top, left bottom, from(#EEEEEE), to(#FFD369));
+    background: linear-gradient(#EEEEEE, #FFD369);
     border-radius: 5px;
-}
-}    
-
-
-    
-@media (min-width:576px) and (max-width:789px)
-{
-    /*INDEX*/
-
-body{
-    background-color:#393E46;
-}
-.navito{
-    background-color:#EEEEEE;
-}
-.navito a, ul, li{
-    color:#393E46;
+  }
 }
 
-
-
-/* Containers */
-
-.aboutus{
-    margin:0;
-    padding:0;
-    padding:8rem;
+@media (min-width: 576px) and (max-width: 789px) {
+  /*INDEX*/
+  body {
+    background-color: #393E46;
+  }
+  .navito {
+    background-color: #EEEEEE;
+  }
+  .navito a, ul, li {
+    color: #393E46;
+  }
+  /* Containers */
+  .aboutus {
+    margin: 0;
+    padding: 0;
+    padding: 8rem;
     border: 1px #EEEEEE solid;
-    
-}
-#title1, #title2, #title3, #title4{
-    color:#FFD369;
-}
-.paraph{
-    text-align:center;
-}
-
-.famelink{
-    text-align:center;
-    color:#FFD369;
-    font-size:3rem;
-}
-.famelink:hover{
-    color:#EEEEEE;
-}
-/* Form */
-.formcon{
-    text-align:center;
-}
-.input{
-    width:50%;
-}
-
-.form-control{
-    text-align:center;
-}
-#exampleFormControlInput1{
-    width:50%;
-    margin-left:17rem;
-}
-.btn{
-    height:50px;
+  }
+  #title1, #title2, #title3, #title4 {
+    color: #FFD369;
+  }
+  .paraph {
+    text-align: center;
+  }
+  .famelink {
+    text-align: center;
+    color: #FFD369;
+    font-size: 3rem;
+  }
+  .famelink:hover {
+    color: #EEEEEE;
+  }
+  /* Form */
+  .formcon {
+    text-align: center;
+  }
+  .input {
+    width: 50%;
+  }
+  .form-control {
+    text-align: center;
+  }
+  #exampleFormControlInput1 {
+    width: 50%;
+    margin-left: 17rem;
+  }
+  .btn {
+    height: 50px;
     width: 150px;
-    color:#EEEEEE;
-}
-
-/* HALL OF FAME */
-
-
-video{
-    width:100%;
-}
-
-h2{
-    color:#DA0037;
-    text-align:center;
-    font-size:6rem;
-}
-
-.awards{
-    display:inline-block;
-}
-.awardslist{
-    padding:0.5rem;
-    font-size:1.5rem;
-    color:#FFD369;
-}
-.lebronchamp{
+    color: #EEEEEE;
+  }
+  /* HALL OF FAME */
+  /* HALL OF FAME */
+  video {
+    width: 100%;
+  }
+  h2 {
+    color: #DA0037;
+    text-align: center;
+    font-size: 6rem;
+  }
+  .awards {
+    display: inline-block;
+  }
+  .awardslist {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: #FFD369;
+  }
+  .lebronchamp {
     max-height: 40rem;
-}
-.conorchamp{
+  }
+  .conorchamp {
     max-height: 30rem;
-}
-.navi{
-    background-color:#FFD369;
-}
-
-.navi a, ul, li{
-    color:#393E46;
-}
-.navis:hover{
-    color:#222831;
-}
-.navbar-toggler-icon{
-    background: linear-gradient(white, #ffd369);
+  }
+  .navi {
+    background-color: #FFD369;
+  }
+  .navi a, ul, li {
+    color: #393E46;
+  }
+  .navis:hover {
+    color: #222831;
+  }
+  .navbar-toggler-icon {
+    background: -webkit-gradient(linear, left top, left bottom, from(#EEEEEE), to(#FFD369));
+    background: linear-gradient(#EEEEEE, #FFD369);
     border-radius: 5px;
+  }
 }
-}
+/*# sourceMappingURL=styles.css.map */
