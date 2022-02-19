@@ -50,8 +50,12 @@ $white: #EEEEEE;
     }
     .navito a, ul, li{
         color:$grey;
+        
     }
-
+    .navito a:hover{
+        transform: scale(1.2);
+        }
+    
 
     /* Containers */
 
@@ -95,6 +99,7 @@ $white: #EEEEEE;
         height:50px;
         width: 150px;
         color:#EEEEEE;
+        
     }
 
 
@@ -105,12 +110,7 @@ $white: #EEEEEE;
 }
 
 
-
-
-
 @media (min-width:790px) and (max-width:991px){
-
-
 
 /*INDEX*/
 
