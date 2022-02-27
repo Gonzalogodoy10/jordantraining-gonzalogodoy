@@ -8,12 +8,18 @@
     
 }
 
-// Variables - Colores
+// Map - Colores
 
-$yellow:#FFD369;
-$grey:#393E46;
-$black: #222831;
-$white: #EEEEEE;
+$colores: (
+    titulos: #FFD369,
+    back: #393E46,
+    blacki: #222831,
+    texti: #EEEEEE,
+);
+
+
+
+
 
 // Mixin
 
@@ -33,7 +39,7 @@ $white: #EEEEEE;
 @mixin awardslist {
     padding:0.5rem;
     font-size:1.5rem;
-    color:#FFD369;
+    color:map-get($colores, titulos );
 
 }
 
@@ -43,13 +49,13 @@ $white: #EEEEEE;
 /*INDEX*/
 
     body{
-        background-color:$grey;
+        background-color:  map-get($colores, back );
     }
     .navito{
-        background-color:$white;
+        background-color:map-get($colores,texti );
     }
     .navito a, ul, li{
-        color:$grey;
+        color: map-get($colores, back );
         
     }
     .navito a:hover{
@@ -60,25 +66,38 @@ $white: #EEEEEE;
     /* Containers */
 
     .aboutus{
-        @include container;
+        @include container;        
     }
+    
+    .aboutus1{
+        @include container;
+        @extend .aboutus1;
+        background-image: url(img/goats.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 170px;
+        background-color: black;
+        
+    }
+    
     #title1, #title2, #title3, #title4{
-        color:$yellow;
+        color: map-get($colores, titulos );
+        letter-spacing: 5px;
     }
     .paraph{
         text-align:center;
+        font-size: 1.5rem;
     }
 
     .famelink{
-        // text-align:center;
             text: {
                 align:center;
             }
-        color:$yellow;
+        color:map-get($colores, titulos );
         font-size:3rem;
     }
     .famelink:hover{
-        color:$white;
+        color:map-get($colores, texti );
     }
 
     /* Form */
@@ -98,7 +117,7 @@ $white: #EEEEEE;
     .btn{
         height:50px;
         width: 150px;
-        color:#EEEEEE;
+        color:map-get($colores, texti );
         
     }
 
@@ -115,13 +134,13 @@ $white: #EEEEEE;
 /*INDEX*/
 
 body{
-    background-color:$grey;
+    background-color: map-get($colores, back );
 }
 .navito{
-    background-color:$white;
+    background-color:map-get($colores,texti );
 }
 .navito a, ul, li{
-    color:$grey;
+    color:map-get($colores, back );
 }
 
 
@@ -130,23 +149,25 @@ body{
 .aboutus{
     @include container;
 }
+
 #title1, #title2, #title3, #title4{
-    color:$yellow;
+    color: map-get($colores, titulos );
+    letter-spacing: 5px;
+    
 }
 .paraph{
     text-align:center;
 }
 
 .famelink{
-    // text-align:center;
         text: {
             align:center;
         }
-    color:$yellow;
+    color:map-get($colores, titulos );
     font-size:3rem;
 }
 .famelink:hover{
-    color:$white;
+    color:map-get($colores, texti );
 }
 
 /* Form */
@@ -166,7 +187,7 @@ body{
 .btn{
     height:50px;
     width: 150px;
-    color:#EEEEEE;
+    color:map-get($colores, texti );
 }
 
 /* HALL OF FAME */
@@ -183,13 +204,13 @@ body{
 /*INDEX*/
 
 body{
-    background-color:$grey;
+    background-color: map-get($colores, back );
 }
 .navito{
-    background-color:$white;
+    background-color:map-get($colores,texti );
 }
 .navito a, ul, li{
-    color:$grey;
+    color:map-get($colores, back );
 }
 
 
@@ -198,23 +219,25 @@ body{
 .aboutus{
     @include container;
 }
+
+
 #title1, #title2, #title3, #title4{
-    color:$yellow;
+    color: map-get($colores, titulos );
+    letter-spacing: 5px;
 }
 .paraph{
     text-align:center;
 }
 
 .famelink{
-    // text-align:center;
         text: {
             align:center;
         }
-    color:$yellow;
+    color:map-get($colores, titulos );
     font-size:3rem;
 }
 .famelink:hover{
-    color:$white;
+    color:map-get($colores, texti );
 }
 
 /* Form */
@@ -234,7 +257,7 @@ body{
 .btn{
     height:50px;
     width: 150px;
-    color:#EEEEEE;
+    color:map-get($colores, texti );
 }
 
 /* HALL OF FAME */

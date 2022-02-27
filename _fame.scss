@@ -22,16 +22,16 @@ h2{
     max-height: 30rem;
 }
 .navi{
-    background-color:$yellow;
+    background-color:map-get($colores, titulos );
 }
 
 .navi a, ul, li{
-    color:$grey;
+    color:map-get($colores, back );
 }
 .navis:hover{
-    color:$black;
+    color:map-get($colores, blacki );
 }
 .navbar-toggler-icon{
-background: linear-gradient($white, $yellow);
+background: linear-gradient(#FFD369, #EEEEEE);
 border-radius: 5px;
 }
