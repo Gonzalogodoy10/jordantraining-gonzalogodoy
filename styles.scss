@@ -18,9 +18,6 @@ $colores: (
 );
 
 
-
-
-
 // Mixin
 
 @mixin container {
@@ -77,9 +74,16 @@ $colores: (
         background-size: cover;
         background-position: 170px;
         background-color: black;
-        
     }
-    
+
+    h1{
+        text-align:center;
+        color:map-get($colores, texti );
+        font-size: 5rem;
+    }
+
+
+
     #title1, #title2, #title3, #title4{
         color: map-get($colores, titulos );
         letter-spacing: 5px;
@@ -150,6 +154,13 @@ body{
     @include container;
 }
 
+h1{
+    text-align:center;
+    color:map-get($colores, texti );
+    font-size: 5rem;
+}
+
+
 #title1, #title2, #title3, #title4{
     color: map-get($colores, titulos );
     letter-spacing: 5px;
@@ -219,6 +230,13 @@ body{
 .aboutus{
     @include container;
 }
+
+h1{
+    text-align:center;
+    color:map-get($colores, texti );
+    font-size: 5rem;
+}
+
 
 
 #title1, #title2, #title3, #title4{
