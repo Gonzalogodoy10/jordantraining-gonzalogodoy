@@ -41,6 +41,29 @@
     background-position: 170px;
     background-color: black;
   }
+  .aboutus0 {
+    margin: 0;
+    padding: 0;
+    padding: 8rem;
+    border: 1px #EEEEEE solid;
+    background: 50% 100%/50% 50% no-repeat radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 10vw;
+    -webkit-animation: glow 2500ms linear infinite 2000ms;
+            animation: glow 2500ms linear infinite 2000ms;
+  }
+  @-webkit-keyframes glow {
+    40% {
+      text-shadow: 0 0 8px #fff;
+    }
+  }
+  @keyframes glow {
+    40% {
+      text-shadow: 0 0 8px #fff;
+    }
+  }
   h1 {
     text-align: center;
     color: #EEEEEE;
@@ -101,14 +124,18 @@
   }
   .lebronchamp {
     max-height: 40rem;
+    -webkit-box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+            box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
   }
   .conorchamp {
     max-height: 30rem;
+    -webkit-box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+            box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
   }
   .navi {
     background-color: #FFD369;
   }
-  .navi a, ul, li {
+  .navi a {
     color: #393E46;
   }
   .navis:hover {
@@ -118,6 +145,19 @@
     background: -webkit-gradient(linear, left top, left bottom, from(#FFD369), to(#EEEEEE));
     background: linear-gradient(#FFD369, #EEEEEE);
     border-radius: 5px;
+  }
+}
+
+@media (min-width: 992px) and (min-width: 320px) and (max-width: 575px) {
+  .lebronchamp {
+    max-height: 22rem;
+    -webkit-box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+            box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+  }
+  .conorchamp {
+    max-height: 18rem;
+    -webkit-box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+            box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
   }
 }
 
@@ -139,98 +179,7 @@
     padding: 8rem;
     border: 1px #EEEEEE solid;
   }
-  h1 {
-    text-align: center;
-    color: #EEEEEE;
-    font-size: 5rem;
-  }
-  #title1, #title2, #title3, #title4 {
-    color: #FFD369;
-    letter-spacing: 5px;
-  }
-  .paraph {
-    text-align: center;
-  }
-  .famelink {
-    text-align: center;
-    color: #FFD369;
-    font-size: 3rem;
-  }
-  .famelink:hover {
-    color: #EEEEEE;
-  }
-  /* Form */
-  .formcon {
-    text-align: center;
-  }
-  .input {
-    width: 50%;
-  }
-  .form-control {
-    text-align: center;
-  }
-  #exampleFormControlInput1 {
-    width: 50%;
-    margin-left: 17rem;
-  }
-  .btn {
-    height: 50px;
-    width: 150px;
-    color: #EEEEEE;
-  }
-  /* HALL OF FAME */
-  /* HALL OF FAME */
-  video {
-    width: 100%;
-  }
-  h2 {
-    color: #DA0037;
-    text-align: center;
-    font-size: 6rem;
-  }
-  .awards {
-    display: inline-block;
-  }
-  .awardslist {
-    padding: 0.5rem;
-    font-size: 1.5rem;
-    color: #FFD369;
-  }
-  .lebronchamp {
-    max-height: 40rem;
-  }
-  .conorchamp {
-    max-height: 30rem;
-  }
-  .navi {
-    background-color: #FFD369;
-  }
-  .navi a, ul, li {
-    color: #393E46;
-  }
-  .navis:hover {
-    color: #222831;
-  }
-  .navbar-toggler-icon {
-    background: -webkit-gradient(linear, left top, left bottom, from(#FFD369), to(#EEEEEE));
-    background: linear-gradient(#FFD369, #EEEEEE);
-    border-radius: 5px;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 789px) {
-  /*INDEX*/
-  body {
-    background-color: #393E46;
-  }
-  .navito {
-    background-color: #EEEEEE;
-  }
-  .navito a, ul, li {
-    color: #393E46;
-  }
-  /* Containers */
-  .aboutus {
+  .aboutus0 {
     margin: 0;
     padding: 0;
     padding: 8rem;
@@ -295,14 +244,18 @@
   }
   .lebronchamp {
     max-height: 40rem;
+    -webkit-box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+            box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
   }
   .conorchamp {
     max-height: 30rem;
+    -webkit-box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+            box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
   }
   .navi {
     background-color: #FFD369;
   }
-  .navi a, ul, li {
+  .navi a {
     color: #393E46;
   }
   .navis:hover {
@@ -312,6 +265,256 @@
     background: -webkit-gradient(linear, left top, left bottom, from(#FFD369), to(#EEEEEE));
     background: linear-gradient(#FFD369, #EEEEEE);
     border-radius: 5px;
+  }
+}
+
+@media (min-width: 790px) and (max-width: 991px) and (min-width: 320px) and (max-width: 575px) {
+  .lebronchamp {
+    max-height: 22rem;
+    -webkit-box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+            box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+  }
+  .conorchamp {
+    max-height: 18rem;
+    -webkit-box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+            box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 789px) {
+  /*INDEX*/
+  body {
+    background-color: #393E46;
+  }
+  .navito {
+    background-color: #EEEEEE;
+  }
+  .navito a, ul, li {
+    color: #393E46;
+  }
+  /* Containers */
+  .aboutus {
+    margin: 0;
+    padding: 0;
+    padding: 8rem;
+    border: 1px #EEEEEE solid;
+  }
+  .aboutus0 {
+    margin: 0;
+    padding: 0;
+    padding: 8rem;
+    border: 1px #EEEEEE solid;
+  }
+  h1 {
+    text-align: center;
+    color: #EEEEEE;
+    font-size: 5rem;
+  }
+  #title1, #title2, #title3, #title4 {
+    color: #FFD369;
+    letter-spacing: 5px;
+  }
+  .paraph {
+    text-align: center;
+  }
+  .famelink {
+    text-align: center;
+    color: #FFD369;
+    font-size: 3rem;
+  }
+  .famelink:hover {
+    color: #EEEEEE;
+  }
+  /* Form */
+  .formcon {
+    text-align: center;
+  }
+  .input {
+    width: 50%;
+  }
+  .form-control {
+    text-align: center;
+  }
+  #exampleFormControlInput1 {
+    width: 50%;
+    margin-left: 17rem;
+  }
+  .btn {
+    height: 50px;
+    width: 150px;
+    color: #EEEEEE;
+  }
+  /* HALL OF FAME */
+  /* HALL OF FAME */
+  video {
+    width: 100%;
+  }
+  h2 {
+    color: #DA0037;
+    text-align: center;
+    font-size: 6rem;
+  }
+  .awards {
+    display: inline-block;
+  }
+  .awardslist {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: #FFD369;
+  }
+  .lebronchamp {
+    max-height: 40rem;
+    -webkit-box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+            box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+  }
+  .conorchamp {
+    max-height: 30rem;
+    -webkit-box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+            box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+  }
+  .navi {
+    background-color: #FFD369;
+  }
+  .navi a {
+    color: #393E46;
+  }
+  .navis:hover {
+    color: #222831;
+  }
+  .navbar-toggler-icon {
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFD369), to(#EEEEEE));
+    background: linear-gradient(#FFD369, #EEEEEE);
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 789px) and (min-width: 320px) and (max-width: 575px) {
+  .lebronchamp {
+    max-height: 22rem;
+    -webkit-box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+            box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+  }
+  .conorchamp {
+    max-height: 18rem;
+    -webkit-box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+            box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  /*INDEX*/
+  body {
+    background-color: #393E46;
+  }
+  .navito {
+    background-color: #EEEEEE;
+  }
+  .navito a, ul, li {
+    color: #393E46;
+  }
+  /* Containers */
+  .aboutus0 {
+    border: 1px #EEEEEE solid;
+  }
+  .aboutus {
+    border: 1px #EEEEEE solid;
+  }
+  .aboutus1 {
+    border: 1px #EEEEEE solid;
+  }
+  h1 {
+    text-align: center;
+    color: #EEEEEE;
+    font-size: 4rem;
+  }
+  #title1, #title2, #title3, #title4 {
+    color: #FFD369;
+    letter-spacing: 5px;
+  }
+  .paraph {
+    text-align: center;
+  }
+  .famelink {
+    text-align: center;
+    color: #FFD369;
+    font-size: 3rem;
+  }
+  .famelink:hover {
+    color: #EEEEEE;
+  }
+  /* Form */
+  .formcon {
+    text-align: center;
+  }
+  .input {
+    width: 50%;
+  }
+  .form-control {
+    text-align: center;
+  }
+  #exampleFormControlInput1 {
+    width: 50%;
+    margin-left: 17rem;
+  }
+  .btn {
+    height: 50px;
+    width: 150px;
+    color: #EEEEEE;
+  }
+  /* HALL OF FAME */
+  /* HALL OF FAME */
+  video {
+    width: 100%;
+  }
+  h2 {
+    color: #DA0037;
+    text-align: center;
+    font-size: 6rem;
+  }
+  .awards {
+    display: inline-block;
+  }
+  .awardslist {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: #FFD369;
+  }
+  .lebronchamp {
+    max-height: 40rem;
+    -webkit-box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+            box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+  }
+  .conorchamp {
+    max-height: 30rem;
+    -webkit-box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+            box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+  }
+  .navi {
+    background-color: #FFD369;
+  }
+  .navi a {
+    color: #393E46;
+  }
+  .navis:hover {
+    color: #222831;
+  }
+  .navbar-toggler-icon {
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFD369), to(#EEEEEE));
+    background: linear-gradient(#FFD369, #EEEEEE);
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 575px) and (min-width: 320px) and (max-width: 575px) {
+  .lebronchamp {
+    max-height: 22rem;
+    -webkit-box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+            box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+  }
+  .conorchamp {
+    max-height: 18rem;
+    -webkit-box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+            box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -75,6 +75,22 @@ $colores: (
         background-position: 170px;
         background-color: black;
     }
+.aboutus0{
+        @include container;
+        @extend .aboutus0;
+    background: 50% 100% / 50% 50% no-repeat radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 10vw;
+    animation: glow 2500ms linear infinite 2000ms;
+
+    @keyframes glow {
+    40% {
+    text-shadow: 0 0 8px #fff;
+        }
+    }
+}
 
     h1{
         text-align:center;
@@ -151,6 +167,10 @@ body{
 /* Containers */
 
 .aboutus{
+    @include container;
+}
+
+.aboutus0{
     @include container;
 }
 
@@ -231,10 +251,94 @@ body{
     @include container;
 }
 
+.aboutus0{
+    @include container;
+}
+
 h1{
     text-align:center;
     color:map-get($colores, texti );
     font-size: 5rem;
+}
+
+
+
+#title1, #title2, #title3, #title4{
+    color: map-get($colores, titulos );
+    letter-spacing: 5px;
+}
+.paraph{
+    text-align:center;
+}
+
+.famelink{
+        text: {
+            align:center;
+        }
+    color:map-get($colores, titulos );
+    font-size:3rem;
+}
+.famelink:hover{
+    color:map-get($colores, texti );
+}
+
+/* Form */
+.formcon{
+    text-align:center;
+}
+.input{
+    width:50%;
+}
+.form-control{
+    text-align:center;
+}
+#exampleFormControlInput1{
+    width:50%;
+    margin-left:17rem;
+}
+.btn{
+    height:50px;
+    width: 150px;
+    color:map-get($colores, texti );
+}
+
+/* HALL OF FAME */
+
+@import "fame";
+
+}
+
+@media (min-width:320px) and (max-width:575px)
+{
+/*INDEX*/
+
+body{
+    background-color: map-get($colores, back );
+}
+.navito{
+    background-color:map-get($colores,texti );
+}
+.navito a, ul, li{
+    color:map-get($colores, back );
+}
+
+
+/* Containers */
+
+.aboutus0{
+    border: 1px #EEEEEE solid;
+}
+.aboutus{
+    border: 1px #EEEEEE solid;
+}
+.aboutus1{
+    border: 1px #EEEEEE solid;
+}
+
+h1{
+    text-align:center;
+    color:map-get($colores, texti );
+    font-size: 4rem;
 }
 
 

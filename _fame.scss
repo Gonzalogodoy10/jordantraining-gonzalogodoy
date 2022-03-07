@@ -17,21 +17,38 @@ h2{
 }
 .lebronchamp{
     max-height: 40rem;
+    box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
 }
 .conorchamp{
     max-height: 30rem;
+    box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
 }
 .navi{
     background-color:map-get($colores, titulos );
+    a{
+        color:map-get($colores, back );
+    }
 }
 
-.navi a, ul, li{
-    color:map-get($colores, back );
-}
+
 .navis:hover{
     color:map-get($colores, blacki );
 }
 .navbar-toggler-icon{
 background: linear-gradient(#FFD369, #EEEEEE);
 border-radius: 5px;
+}
+
+@media (min-width:320px) and (max-width:575px)
+{
+    .lebronchamp{
+        max-height: 22rem;
+        box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+    }
+    .conorchamp{
+        max-height: 18rem;
+        box-shadow: white 0px 0px 100px 10px, red 1px 1px 5px 5px;
+    }
+
+
 }
